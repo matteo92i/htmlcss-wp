@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+header{
+    height: 100px;
+}
+.logo{
+    height: 50px;
+}
+.section{
+    height: 250px;
+    width: 1200px;
+    background-image: url(../immagini/banner.jpg);
+    background-size: cover;
+
+}
+.margini{
+    
+    
+}
+.testoG{
+    font-size: 25px;
+    color: white;
+    padding-top: 25px;
+    margin-left: 10px;
+
+}
+.testoP{
+    font-size: 10px;
+    color: white;
+    margin-left: 10px;
+    
+}
+
+    
+
