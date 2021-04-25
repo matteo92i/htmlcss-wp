@@ -60,11 +60,62 @@ h1{
 .float-left{
     float: left;
 }
-.float-center{
-    float: center;
-}
+
+
 .float-right{
     float: right;
 }
+aside{
+    width: 300px;
+    height: 250px;
     
+    
+}
+.img-left{
+    width: 300px;
+    height: 90px;
+    
+}
+.textp-left{
+    color: grey;
+    font-size: 15px;
+
+}
+.Text-left{
+    color: grey;
+    font-size: 10px;
+}
+main{
+    width: 580px;
+    height: 250px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+    
+.img-right{
+    width: 300px;
+    height: 90px;
+}
+.testxp-right{
+    color: grey;
+    font-size: 15px;
+}
+.text-right{
+    color: grey;
+    font-size: 10px;
+
+}
+.img-banner2{
+    width: 580px;
+    height: 90px;
+
+}
+.textp-centrale{
+    color: grey;
+    font-size: 15px;
+}
+.text-centrale{
+    color: grey;
+    font-size: 10px;
+}
 
