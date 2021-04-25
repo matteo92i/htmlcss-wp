@@ -2,126 +2,102 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+
 }
-.container{
+.contenitore{
     max-width: 1200px;
     margin: 0 auto;
+    
 }
 header{
-    height: 100px;
-}
-.logo{
     height: 50px;
 }
-.section{
-    height: 200px;
-    background-image: url(../immagini/banner.jpg);
-    background-size: cover;
-    padding-top: 100px;
-    padding-left: 25px;
-    
+.logo{
+    margin-top: 2px;
+    height: 45px;
 }
-    
-
-.margini{
-}
-
-    
-    
-.testoG{
-    font-size: 25px;
-    color: white;
-    padding-top: 25px;
-    margin-left: 10px;
-
-}
-.testoP{
-    font-size: 10px;
-    color: white;
-    margin-left: 10px;
-    
-}
-.margineh1{
-    margin-top: 15px;
+nav{
+    height: 5px;
     margin-bottom: 10px;
 }
+ul{
+    list-style: none;
+}
+li{
+    display: inline-block;
+    
+    font-size: 15px;
+    margin-left: 10px;
+    color: grey;
+}
+section{
+    width: 1200px;
+    height: 250px;
+    background-size: 50%;
+    color: white;
+    padding: 100px;
+    margin-top: 25px;
+}
+.banner{
+    background-image: url(../immagini/banner.jpg);
+}  
 h1{
     font-size: 30px;
 }
-.testoh1{
-    font-size: 10px;
-    color: grey;
+.testo-banner{
+    font-size: 15px;
 }
-.clearfix::after{
-    content: "";
-    display: table;
-    clear: both;
+.margine{
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
-.float-left{
-    float: left;
-}
-
-
-.float-right{
-    float: right;
-}
+ .clearfix::after{
+     content: "";
+     display: table;
+     clear: both;
+ }
+ .floatL{
+     float: left;
+ }   
 aside{
     width: 300px;
     height: 250px;
     
-    
 }
-.img-left{
-    width: 300px;
-    height: 90px;
-    
+.imgL{
+    background-color: grey;
+    width: 100px;
+    height: 100px;
 }
-.textp-left{
-    color: grey;
-    font-size: 15px;
-
+h2{
+    font-size: 20px;
 }
-.Text-left{
-    color: grey;
-    font-size: 10px;
-}
-main{
-    width: 580px;
+.box{
+    width: 550px;
     height: 250px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 25px;
+    margin-right: 25px;
 }
+.boximg{
+    width: 100px;
+    height: 100px;
+}
+.floatR{
+    float: right;
+}
+.imgR{
+    background-color: grey;
+    width: 100px;
+    height: 100px
+}
+
+
     
-.img-right{
-    width: 300px;
-    height: 90px;
-}
-.testxp-right{
-    color: grey;
-    font-size: 15px;
-}
-.text-right{
-    color: grey;
-    font-size: 10px;
+    
+    
+    
+    
+    
+   
 
-}
-.img-banner2{
-    width: 580px;
-    height: 90px;
-
-}
-.textp-centrale{
-    color: grey;
-    font-size: 15px;
-}
-.text-centrale{
-    color: grey;
-    font-size: 10px;
-}
-.fine{
-margin-left: 523px;
-color: grey;
-font-size: 15px;
-}
-
-
+    
