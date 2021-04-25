@@ -15,15 +15,19 @@ header{
 }
 .section{
     height: 200px;
-    width: 1200px;
     background-image: url(../immagini/banner.jpg);
     background-size: cover;
+    padding-top: 100px;
+    padding-left: 25px;
+    
+}
+    
 
-}
 .margini{
-    
-    
 }
+
+    
+    
 .testoG{
     font-size: 25px;
     color: white;
@@ -47,6 +51,20 @@ h1{
 .testoh1{
     font-size: 10px;
     color: grey;
+}
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.float-left{
+    float: left;
+}
+.float-center{
+    float: center;
+}
+.float-right{
+    float: right;
 }
     
 
